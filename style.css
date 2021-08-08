@@ -2,7 +2,7 @@
 Be Curious
  */
 
-.fr-clearfix::after {
+ .fr-clearfix::after {
   clear: both;
   display: block;
   content: "";
@@ -34347,11 +34347,17 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 132px;
+    min-height: 137px;
   }
 
   .u-header .u-search-1 {
-    margin-left: 470px;
+    margin-top: 91px;
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .u-header .u-menu-1 {
+    margin-top: -38px;
   }
 
   .u-header .u-image-1 {
